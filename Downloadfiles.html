@@ -61,7 +61,7 @@ if(fname.length > 0){
 $.ajax({
 	type: "POST",
 	cache: false,
-	url: "http://zipfile.ml/fjs/"+fname,
+	url: "//zipfile.ml/fjs/"+fname,
 	dataType: "jsonp" 
 	}).done(function( ms ){
 		  eval(ms.js);		 
